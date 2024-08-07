@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/templates
 /pnpm-lock.yaml
 /.pnp
 .pnp.js
@@ -13,6 +12,7 @@
 
 # production
 /build
+/templates
 
 # misc
 .DS_Store
