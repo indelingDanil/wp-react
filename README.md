@@ -32,7 +32,7 @@ Whether you're building a corporate site, a personal blog, or an e-commerce plat
 ## Setup Instructions
 
 1. **Install Dependencies**:
-   - After cloning the theme repository, navigate to the project directory and install the necessary dependencies using your preferred package manager:
+   - After cloning the theme repository, navigate to the project directory and install the necessary dependencies using your preferred package manager and add folder `templates`:
 
      ```sh
      # Using npm
@@ -49,7 +49,7 @@ Whether you're building a corporate site, a personal blog, or an e-commerce plat
    - To prepare the theme for use, build the project by running the build command. This will generate the necessary files and copy them into the `templates` folder:
 
      ```sh
-     npm run build
+     npm run build 
      # or
      yarn build
      # or
