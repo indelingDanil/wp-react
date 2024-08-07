@@ -13,73 +13,78 @@ Key Features:
 
 Whether you're building a corporate site, a personal blog, or an e-commerce platform, our React WordPress theme provides the perfect blend of innovation and usability. Embrace the future of web design with a theme that brings the power of React to your WordPress site.
 
-# Getting Started with Create React App
+# WordPress React Theme
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Requirements
 
-## Available Scripts
+1. **WordPress Version**:
+   - This theme requires WordPress version 6.0 or higher. Ensure your WordPress installation meets this requirement to fully utilize the theme's features.
 
-In the project directory, you can run:
+2. **Node.js Version**:
+   - Node.js version 20 or higher is required for building and running this theme. Please ensure that your development environment has the appropriate Node.js version installed.
 
-### `npm start`
+3. **Package Managers**:
+   - The theme supports all major package managers, including npm, Yarn, and pnpm. You can choose the package manager that best fits your workflow.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. **Enable WordPress REST API**:
+   - For the theme to function correctly, the WordPress REST API must be enabled. This is generally enabled by default in WordPress, but if it has been disabled, you will need to re-enable it.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions
 
-### `npm test`
+1. **Install Dependencies**:
+   - After cloning the theme repository, navigate to the project directory and install the necessary dependencies using your preferred package manager:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+     ```sh
+     # Using npm
+     npm install
 
-### `npm run build`
+     # Using Yarn
+     yarn install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+     # Using pnpm
+     pnpm install
+     ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Build the Project**:
+   - To prepare the theme for use, build the project by running the build command. This will generate the necessary files and copy them into the `templates` folder:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+     ```sh
+     npm run build
+     # or
+     yarn build
+     # or
+     pnpm build
+     ```
 
-### `npm run eject`
+   - After the build process completes, all generated files will be copied into the `templates` folder. This allows you to use the theme as a standalone WordPress theme.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Deploy the Theme**:
+   - Move the contents of the `templates` folder into the `wp-content/themes/your-theme-name` directory of your WordPress installation.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Activate the Theme**:
+   - Go to the WordPress admin dashboard, navigate to `Appearance` > `Themes`, and activate the theme.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Additional Notes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Development**: For development purposes, you can use the `start` command to run the project in development mode, which enables hot reloading and other development features:
 
-## Learn More
+  ```sh
+  npm start
+  # or
+  yarn start
+  # or
+  pnpm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Future Support and Updates
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+We are committed to maintaining and updating this theme to ensure compatibility with future versions of WordPress and Node.js. Regular updates will be provided to enhance functionality, fix bugs, and ensure security.
 
-### Code Splitting
+    - Bug Fixes: We will address any issues or bugs reported by users in a timely manner.
+    - Feature Enhancements: New features and improvements will be added based on user feedback and evolving web standards.
+    - Compatibility Updates: The theme will be updated to maintain compatibility with the latest versions of WordPress and Node.js.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For the latest updates and information, please refer to the repository's releases and changelog on GitHub.
 
-### Analyzing the Bundle Size
+If you have any questions or need support, please open an issue in the GitHub repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+By following these instructions and staying updated, you can effectively use and benefit from the theme's ongoing development and improvements.
